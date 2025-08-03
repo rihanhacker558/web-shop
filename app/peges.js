@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const totalAkhir = hargaProdukTerpilih + pajakAkhir;
         const namaMetodePembayaran = document.querySelector(`.payment-method[data-method="${metodePembayaranTerpilih}"] span`).textContent;
 
-        let pesan = `Halo Admin FauziHost!\n\nSaya ingin memesan hosting dengan detail sebagai berikut:\n\n`;
+        let pesan = `Halo Admin AlfarzHost!\n\nSaya ingin memesan hosting dengan detail sebagai berikut:\n\n`;
         pesan += `Informasi Akun:\n`;
         pesan += `Nama Pengguna: ${namaPengguna}.fauzihost.biz.id\n`;
         pesan += `Surel: ${surel}\n\n`;
@@ -416,11 +416,11 @@ document.addEventListener('DOMContentLoaded', function () {
         let alertMessage;
 
         if (selectedChatPlatform === 'whatsapp') {
-            const nomorTeleponWhatsapp = "6282132710183";
+            const nomorTeleponWhatsapp = "6282135288134";
             urlObrolan = `https://wa.me/${nomorTeleponWhatsapp}?text=${pesanTerkode}`;
             alertMessage = 'Pesanan Anda telah diteruskan ke WhatsApp! Silakan lanjutkan obrolan untuk konfirmasi pembayaran.';
         } else if (selectedChatPlatform === 'telegram') {
-            const usernameTelegram = "FauziAlifatah";
+            const usernameTelegram = "Alfarezzoffc";
             urlObrolan = `https://t.me/${usernameTelegram}?text=${pesanTerkode}`;
             alertMessage = 'Pesanan Anda telah diteruskan ke Telegram! Silakan lanjutkan obrolan untuk konfirmasi pembayaran.';
         }
@@ -491,55 +491,4 @@ document.addEventListener('DOMContentLoaded', function () {
         const content = this.nextElementSibling;
         const icon = this.querySelector('i');
 
-        document.querySelectorAll('.accordion-faq-header').forEach(otherHeader => {
-            if (otherHeader !== this && otherHeader.classList.contains('active')) {
-                otherHeader.classList.remove('active');
-                otherHeader.nextElementSibling.style.maxHeight = null;
-                otherHeader.querySelector('i').classList.remove('fa-chevron-up');
-                otherHeader.querySelector('i').classList.add('fa-chevron-down');
-            }
-        });
-
-        this.classList.toggle('active');
-        if (this.classList.contains('active')) {
-            icon.classList.remove('fa-chevron-down');
-            icon.classList.add('fa-chevron-up');
-            content.style.maxHeight = content.scrollHeight + 'px';
-        } else {
-            icon.classList.remove('fa-chevron-up');
-            icon.classList.add('fa-chevron-down');
-            content.style.maxHeight = null;
-        }
-    }
-
-    function tampilkanWhyChooseUs() {
-        const whyChooseUsContainer = document.getElementById('whyChooseUsContainer');
-        if (!whyChooseUsContainer) {
-            console.error("Elemen #whyChooseUsContainer tidak ditemukan!");
-            return;
-        }
-        whyChooseUsContainer.innerHTML = '';
-
-        if (window.whyChooseUsData && Array.isArray(window.whyChooseUsData)) {
-            window.whyChooseUsData.forEach(item => {
-                const featureCard = document.createElement('div');
-                featureCard.classList.add('feature-card');
-                featureCard.innerHTML = `
-                    <div class="icon-wrapper">
-                        <i class="${item.icon}"></i>
-                    </div>
-                    <h4>${item.title}</h4>
-                    <p>${item.description}</p>
-                `;
-                whyChooseUsContainer.appendChild(featureCard);
-            });
-        } else {
-            console.error("Data whyChooseUsData tidak ditemukan atau tidak valid di window.whyChooseUsData. Pastikan setting.js dimuat dengan benar.");
-        }
-    }
-
-    tampilkanProduk();
-    perbaruiRingkasanPesanan();
-    tampilkanFaq();
-    tampilkanWhyChooseUs();
-});
+        document.querySelectorAll('.accordion-faq-header').
