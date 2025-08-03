@@ -23,15 +23,15 @@ const products = [
     {
         category: 'Paket Panel Pterodactyl',
         items: [
-            { value: 'panel-1gb', name: 'Paket 1 GB', price: 1000, specs: 'CPU Load: 10%, Memory: 512MB', badge: 'Termurah' },
-            { value: 'panel-2gb', name: 'Paket 2 GB', price: 2000, specs: 'CPU Load: 20%, Memory: 1GB', badge: 'Termurah' },
-            { value: 'panel-3gb', name: 'Paket 3 GB', price: 3000, specs: 'CPU Load: 30%, Memory: 2GB', badge: 'Termurah' },
-            { value: 'panel-4gb', name: 'Paket 4 GB', price: 4000, specs: 'CPU Load: 40%, Memory: 4GB', badge: 'Termurah' },
-            { value: 'panel-5gb', name: 'Paket 5 GB', price: 5000, specs: 'CPU Load: 50%, Memory: 8GB', badge: 'Termurah' },
-            { value: 'panel-6gb', name: 'Paket 6 GB', price: 6000, specs: 'CPU Load: 60%, Memory: 12GB', badge: 'Termurah' },
-            { value: 'panel-7gb', name: 'Paket 7 GB', price: 7000, specs: 'CPU Load: 70%, Memory: 16GB', badge: 'Termurah' },
-            { value: 'panel-8gb', name: 'Paket 8 GB', price: 8000, specs: 'CPU Load: 80%, Memory: 24GB', badge: 'Termurah' },
-            { value: 'panel-9gb', name: 'Paket 9 GB', price: 90000, specs: 'CPU Load: 90%, Memory: 32GB', badge: 'Termurah' }
+            { value: 'panel-1gb', name: 'Paket 1 GB', price: 2000, specs: 'CPU Load: 10%, Memory: 512MB', badge: 'Termurah' },
+            { value: 'panel-2gb', name: 'Paket 2 GB', price: 3000, specs: 'CPU Load: 20%, Memory: 1GB', badge: 'Termurah' },
+            { value: 'panel-3gb', name: 'Paket 3 GB', price: 4000, specs: 'CPU Load: 30%, Memory: 2GB', badge: 'Termurah' },
+            { value: 'panel-4gb', name: 'Paket 4 GB', price: 5000, specs: 'CPU Load: 40%, Memory: 4GB', badge: 'Termurah' },
+            { value: 'panel-5gb', name: 'Paket 5 GB', price: 6000, specs: 'CPU Load: 50%, Memory: 8GB', badge: 'Termurah' },
+            { value: 'panel-6gb', name: 'Paket 6 GB', price: 7000, specs: 'CPU Load: 60%, Memory: 12GB', badge: 'Termurah' },
+            { value: 'panel-7gb', name: 'Paket 7 GB', price: 8000, specs: 'CPU Load: 70%, Memory: 16GB', badge: 'Termurah' },
+            { value: 'panel-8gb', name: 'Paket 8 GB', price: 9000, specs: 'CPU Load: 80%, Memory: 24GB', badge: 'Termurah' },
+            { value: 'panel-9gb', name: 'Paket 9 GB', price: 10000, specs: 'CPU Load: 90%, Memory: 32GB', badge: 'Termurah' }
         ]
     },
     {
@@ -46,19 +46,19 @@ const products = [
 
 const faqData = [
     {
-        question: 'Apa itu AlfarzHost?',
-        answer: '<ul>AlfarzHost adalah penyedia layanan hosting terkemuka yang berfokus pada panel Pterodactyl untuk server game dan aplikasi. Kami menawarkan hosting berkualitas premium dengan harga terjangkau dan performa optimal.</ul>'
+        question: 'Apa itu FauziHost?',
+        answer: '<ul>FauziHost adalah penyedia layanan hosting terkemuka yang berfokus pada panel Pterodactyl untuk server game dan aplikasi. Kami menawarkan hosting berkualitas premium dengan harga terjangkau dan performa optimal.</ul>'
     },
     {
-        question: 'Bagaimana cara membeli hosting di AlfarzHost?',
-        answer: '<ul>Untuk membeli hosting, Anda perlu mengisi "Informasi Akun" Anda, memilih "Paket Hosting" yang diinginkan, memilih "Metode Pembayaran" (QRIS, Gopay, atau DANA), lalu memeriksa "Ringkasan Pesanan". Setelah itu, klik tombol "BELI" untuk melanjutkan konfirmasi pembayaran dan aktivasi layanan melalui WhatsApp Admin AlfarzHost.</ul>'
+        question: 'Bagaimana cara membeli hosting di FauziHost?',
+        answer: '<ul>Untuk membeli hosting, Anda perlu mengisi "Informasi Akun" Anda, memilih "Paket Hosting" yang diinginkan, memilih "Metode Pembayaran" (QRIS, Gopay, atau DANA), lalu memeriksa "Ringkasan Pesanan". Setelah itu, klik tombol "BELI" untuk melanjutkan konfirmasi pembayaran dan aktivasi layanan melalui WhatsApp Admin FauziHost.</ul>'
     },
     {
         question: 'Metode pembayaran apa saja yang tersedia?',
         answer: '<ul>Kami menerima pembayaran melalui QRIS, Gopay, dan DANA untuk kemudahan transaksi Anda. Detail lebih lanjut akan diberikan saat proses pemesanan.</ul>'
     },
     {
-        question: 'Apakah AlfarzHost menyediakan layanan support?',
+        question: 'Apakah FauziHost menyediakan layanan support?',
         answer: '<ul>Tentu saja! Kami menyediakan layanan support responsif untuk membantu Anda dengan segala pertanyaan atau masalah terkait hosting Anda. Anda dapat menghubungi kami melalui saluran yang tersedia setelah pemesanan.</ul>'
     },
     {
