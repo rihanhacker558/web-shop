@@ -31,8 +31,7 @@ const products = [
             { value: 'panel-6gb', name: 'Paket 6 GB', price: 6000, specs: 'CPU Load: 60%, Memory: 12GB', badge: 'Termurah' },
             { value: 'panel-7gb', name: 'Paket 7 GB', price: 7000, specs: 'CPU Load: 70%, Memory: 16GB', badge: 'Termurah' },
             { value: 'panel-8gb', name: 'Paket 8 GB', price: 8000, specs: 'CPU Load: 80%, Memory: 24GB', badge: 'Termurah' },
-            { value: 'panel-9gb', name: 'Paket 9 GB', price: 90000, specs: 'CPU Load: 90%, Memory: 32GB', badge: 'Termurah' },
-            { value: 'panel-unl', name: 'Paket Unlimited', price: 14000, specs: 'CPU Load: Unlimited, Memory: Unlimited', badge: 'Termurah' }
+            { value: 'panel-9gb', name: 'Paket 9 GB', price: 90000, specs: 'CPU Load: 90%, Memory: 32GB', badge: 'Termurah' }
         ]
     },
     {
